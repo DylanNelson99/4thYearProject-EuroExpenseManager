@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276566105067",
+    "project_id": "euroexpensemanager-3c269",
+    "storage_bucket": "euroexpensemanager-3c269.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276566105067:android:efd3aeb61263ac9fe9d7ae",
+        "android_client_info": {
+          "package_name": "com.project.euroexpensemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276566105067-gk9kvu4dmln7s5c06bmduljge85nrkfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALxJQPAQ3sF_tbpM1RQP_1ru79cciCDr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276566105067-gk9kvu4dmln7s5c06bmduljge85nrkfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

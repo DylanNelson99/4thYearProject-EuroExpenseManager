@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.project.euroexpensemanager.datamodel.NewEntryModelClass" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tvNameRecentTransactionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:singleLine="true"
+                android:text="@{item.title}"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/tvTypeRecentTransactionsId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/ivDeleteId"
+                android:layout_toLeftOf="@+id/ivDeleteId"
+                android:layout_toEndOf="@+id/tvNameRecentTransactionId"
+                android:layout_toRightOf="@+id/tvNameRecentTransactionId"
+                android:gravity="end"
+                android:singleLine="true"
+                android:text="@{item.type}"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <ImageView
+                android:id="@+id/ivDeleteId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_baseline_delete_forever_24"
+                app:tint="@color/black" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

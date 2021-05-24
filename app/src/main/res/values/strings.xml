@@ -1,0 +1,78 @@
+<resources>
+ <!-- All App resources -->
+
+    <string name="app_name">Euro Expense Manager</string>
+    <string name="uro">uro</string>
+    <string name="expense_manager">Expense Manager</string>
+	<!-- Login resources -->
+    <string name="login">Login</string>
+    <string name="email">Email:</string>
+    <string name="password">Password</string>
+	<!-- Registration resources -->
+    <string name="sign_up_here">Sign up here</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_here">Login here</string>
+	<!-- Forgot Password resources -->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="privacy">Tap continue to accept terms,Data policy and Cookie Use Policy,and privacy policy of App</string>
+    <string name="sent">Sent</string>
+	<!-- New Entry Details -->
+    <string name="new_entry">New Entry</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="graph">Graph</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_type">Select Type</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="amount">Amount</string>
+    <string name="category">Select Category:</string>
+    <string name="save">Save</string>
+	<!-- Home page resources -->
+    <string name="home">Home</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="type">type</string>
+    <string name="type_data">Type</string>
+    <string name="select_date">Select Date</string>
+    <string name="total_income">Total Income :</string>
+    <string name="total_expense">Total Expense :</string>
+    <string name="online">Online :</string>
+    <string name="diningout">DiningOut :</string>
+    <string name="groceries">Groceries :</string>
+    <string name="transport">Transport :</string>
+    <string name="bills">Bills :</string>
+
+    <array name="new_entry">
+        <item>Income</item>
+        <item>Expense</item>
+    </array>
+	<!-- Catergories -->
+    <array name="category">
+        <item>Online</item>
+        <item>DiningOut</item>
+        <item>Groceries</item>
+        <item>Transport</item>
+        <item>Bills</item>
+    </array>
+
+    <array name="month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+
+
+</resources>
