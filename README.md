@@ -1,6 +1,6 @@
 # 4thYearProject-EuroExpenseManager
 
-![Login: ](Login.jpg)
+![Login: ](Images/Login.jpg)
 
 <p> Login: </p>
 <img src = "Images/Login.jpg" width = 200>  
