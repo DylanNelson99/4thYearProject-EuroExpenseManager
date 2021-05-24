@@ -3,7 +3,7 @@
 <p> Login: </p>
 <img src = "Images/Login.jpg" width = 200>  
 
-<p> RRegistration: </p>
+<p> Registration: </p>
 <img src = "Images/reg.jpg" width = 200>
 
 <p> Forgot Password: </p>
