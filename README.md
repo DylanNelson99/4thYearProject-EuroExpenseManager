@@ -1,6 +1,7 @@
 # 4thYearProject-EuroExpenseManager
 
-![Login: ](Images/Login.jpg width=200)
+<h1> This was my 4th Year project that took a full year and 2 semesters. It was a an expense tracker for an android device:  </h1>
+<h2> See images below: </h2>
 
 <p> Login: </p>
 <img src = "Images/Login.jpg" width = 200>  
